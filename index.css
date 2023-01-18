@@ -1,0 +1,40 @@
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgba(224, 220, 202, 1);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px 8px rgba(231, 226, 222, 1);
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0 2px;
+  }
+  
+.button:hover {
+    background-color: rgba(219, 215, 198, 1)
+  }
+  
+.button:active {
+    background-color: rgba(219, 215, 198, 1);
+    box-shadow: 0 5px 8px rgba(231, 226, 222, 1);
+    transform: translateY(4px);
+  }
+  
+html,
+body {
+    height: 100%;
+  }
+    
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/18241062_v795-tang-32.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
